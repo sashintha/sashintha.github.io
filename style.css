@@ -2,6 +2,27 @@
     margin-top: 150px;
     font-size: 50px;
     text-align: center;
-    color: rgb(255, 17, 0);
-    background-color: white;
+    color: rgb(0, 0, 0);
 }
+
+.body{
+    color:black;
+}
+
+.centre{
+    text-align: center;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 50px;
+    width: 13px;
+    text-align: center;
+    text-decoration: none;
+    color:blue;
+    background-color:darkgray;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+  }
