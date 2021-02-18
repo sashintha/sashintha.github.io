@@ -1,29 +1,41 @@
+
 .title{
     margin-top: 150px;
-    font-size: 50px;
+    font-size: 60px;
+    font-family: roboto_title;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0,);
 }
 
 .body{
     text-align: center;
+    font-size: 20px;
+    font-family:roboto_body;
     color:black;
 }
 
-.centre{
-    text-align: center;
+img{
+    border: 1px transparent #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
 }
 
-.fa {
-    padding: 5px;
-    font-size: 50px;
-    width: 13px;
-    text-align: center;
-    text-decoration: none;
-    color:blue;
-    background-color:darkgray;
-  }
+html {
+    height: 100%;
+    background-size: cover;
+    background: #00cc88;
+    background-repeat:no-repeat;
+    background: linear-gradient(to bottom right,#0066ff,#33ff77);
+}
 
-  .fa:hover {
-    opacity: 0.7;
-  }
+@font-face{
+    font-family: 'roboto_title';
+    src:url(Roboto-Thin.ttf);
+}
+@font-face{
+    font-family: 'roboto_body';
+    src:url(Roboto-Light.ttf);
+}
+
+
