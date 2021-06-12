@@ -8,7 +8,36 @@ html {
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    background: linear-gradient(to bottom,#570303,#020202);
+    background: linear-gradient(to bottom right,#570303,#020202);
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding-top: 50px;
+  height: 500px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.about-image{
+    padding: 200px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-text{
+    padding: 200px;
+    padding-top: 20px;
+    display: flex;
+    font-size: 20px;
 }
 
 
@@ -17,7 +46,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #500303;
+    background-color: transparent;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -57,13 +86,13 @@ nav{
     transition: all 0.3s ease;
 }
 
-@media screen and (max-width:1024px){
+@media only screen and (max-width:1024px){
     .nav-links{
         width: 60%;
     }
 }
 
-@media screen and (max-width:768px){
+@media only screen and (max-width:768px){
 
     body{
         overflow-x: hidden;
@@ -74,13 +103,13 @@ nav{
         height: 92vh;
         width: 35%;
         top: 8vh;
-        background-color: rgb(197,0,0);
+        background-color: #500303;
         color:white;
         display: flex;
         flex-direction: column;
         align-items: center;
         transform: translateX(100%);
-        transition: transform0.5s ease-in;
+        transition: transform 0.5s ease-in;
     }
     .nav-links li{
         opacity: 0;
