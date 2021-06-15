@@ -38,11 +38,24 @@ html {
   height: 400px;
 }
 
+.column2 {
+  float: left;
+  width: 100%;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+h2 {
+    text-align: center;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 /* NAV STYLING */
@@ -207,9 +220,8 @@ nav h4{
 #about{
     margin-left: 500px;
     margin-right: 500px;
-    padding-bottom: 50px;
-    /* height: 200px;
-    width:500px; */
+    padding-top: 20px;
+    padding-bottom: 80px;
     color: black; 
     text-align: center; 
     font-family: 'Roboto', sans-serif;
@@ -225,8 +237,11 @@ nav h4{
 
 #projects{
     min-height: 250px; 
-    color:white; 
+    color:black; 
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .projText{
@@ -234,6 +249,11 @@ nav h4{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     /* font-weight: bold; */
+}
+
+.tempfix{
+    width:100%;
+    overflow: hidden;
 }
 
 
