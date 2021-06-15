@@ -5,16 +5,10 @@
 }
 
 html {
-    /* min-height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-color: #889E81; */
-    /* background: linear-gradient(to bottom , #698474,#889E81, #BAC7A7, #E5E4CC); */
     scroll-behavior: smooth;
     /* background: linear-gradient(-45deg,#184e77,#1a759f, #34a0a4, #76c893, #b5e48c, #d9ed92); */
     background: linear-gradient(-45deg,#03045e,#0077b6, #00b4d8, #90e0ef, #caf0f8);
+    /* background: linear-gradient(-45deg,#FEFFDE,#DDFFBC, #91C788, #52734D); */
 	background-size: 400% 400%;
 	animation: gradient 8s ease infinite;
 }
@@ -69,7 +63,8 @@ nav{
     font-family: 'Roboto', sans-serif;
     width:100%;
     position:fixed;
-    background: linear-gradient(to bottom ,#0077b6, rgba(0,0,0,0));
+    /* FOR THEME CHANGE */
+    background: linear-gradient(to bottom ,#015c8d, rgba(0,0,0,0)); 
 }
 
 nav h4{
@@ -92,7 +87,6 @@ nav h4{
     display: flex;
     justify-content: space-around;
     width: 40%;
-    /* background-color: #52b69a; */
     border-radius: 25px;
     height: 50px;
     text-align: center;
@@ -141,7 +135,8 @@ nav h4{
         height: 92vh;
         width: 35%;
         top: 8vh;
-        background-color: #0077b6;
+        /* FOR THEME CHANGE */
+        background-color: #015c8d;
         color:#ffffff;
         display: flex;
         flex-direction: column;
@@ -206,8 +201,6 @@ nav h4{
 }
 
 .home-text{
-    /* padding-left:100px;
-    padding-right: 200px; */
     display: flex;
     align-items: center;
     text-align: center;
@@ -235,8 +228,6 @@ nav h4{
 }
 
 
-
-
 /* PROJECT SECTION STYLING */
 
 #projects{
@@ -253,12 +244,6 @@ nav h4{
     color:black;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    /* font-weight: bold; */
-}
-
-.tempfix{
-    width:100%;
-    overflow: hidden;
 }
 
 
@@ -280,7 +265,8 @@ nav h4{
     float: left;
     width: 30%;
     height: 400px;
-    background: #0077b6;
+    /* FOR THEME CHANGE */
+    background: #015c8d;
     margin-left: 1.667%;
     margin-right: 1.667%;
     margin-bottom: 1%;
@@ -308,7 +294,8 @@ nav h4{
 
 .container ul li img{
     height: 200px; 
-    width:400px
+    width:400px;
+    padding: 10px;
 }
 
 @media screen and (max-width:1530px){
@@ -329,10 +316,7 @@ nav h4{
         width:40%; 
         margin-left:40px;
     }
-    .container ul li img{
-        height: 200px; 
-        width:400px
-    }
+
 }
 
 @media screen and (max-width:1260px){
@@ -344,16 +328,35 @@ nav h4{
         width:50%; 
         margin-left:25%;
     }
-    .container ul li img{
-        height: 200px; 
-        width:200px
+}
+
+@media screen and (max-width:1140px){
+    .container ul li{
+        width:80%; 
+        margin-left:10%;
     }
+
+}
+
+@media screen and (max-width: 840px){
+
 }
 
 @media screen and (max-width: 700px){
     #about{
         margin-left: 80px;
         margin-right: 80px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container ul li{
+        width:90%; 
+        margin-left:5%;
+    }
+    .container ul li img{
+        height: 200px; 
+        width:280px
     }
 }
 
