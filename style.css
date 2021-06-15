@@ -150,10 +150,6 @@ nav h4{
         margin-left: 25%;
     }
 
-    #about{
-        margin-left: 0px;
-        margin-right: 0px;
-    }
 }
 
 .nav-active{
@@ -219,7 +215,10 @@ nav h4{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: bold;
+    display: flex;
 }
+
+
 
 
 /* PROJECT SECTION STYLING */
@@ -299,12 +298,6 @@ nav h4{
     }
 }
 
-@media screen and (max-width:1260px){
-    #about{
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-}
 
 @media screen and (max-width: 1400px){
     .container ul li{
@@ -316,7 +309,29 @@ nav h4{
         width:400px
     }
 }
+
+@media screen and (max-width:1260px){
+    #about{
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .container ul li{
+        width:50%; 
+        margin-left:25%;
+    }
+    .container ul li img{
+        height: 200px; 
+        width:200px
+    }
 }
+
+@media screen and (max-width: 700px){
+    #about{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
 
 /* CONTACT SECTION STYLING */
 
