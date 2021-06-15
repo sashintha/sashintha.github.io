@@ -53,6 +53,9 @@ nav{
     align-items: center;
     min-height: 8vh;
     font-family: 'Roboto', sans-serif;
+    width:100%;
+    position:fixed;
+    background: linear-gradient(to bottom ,rgba(85,182,154,1), rgba(0,0,0,0));
 }
 
 .logo{
@@ -64,7 +67,7 @@ nav{
     display: flex;
     justify-content: space-around;
     width: 40%;
-    background-color: #52b69a;
+    /* background-color: #52b69a; */
     border-radius: 25px;
     height: 50px;
     text-align: center;
@@ -113,7 +116,7 @@ nav{
         height: 92vh;
         width: 35%;
         top: 8vh;
-        background-color: #500303;
+        background-color: #34a0a4;
         color:#ffffff;
         display: flex;
         flex-direction: column;
@@ -157,6 +160,7 @@ nav{
 /* HOME SECTION STYLING */
 
 #home{
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -227,9 +231,9 @@ nav{
     border:2px solid while;
 }
 
-.container ul li:hover{
+/* .container ul li:hover{
     opacity: 0.8;
-}
+} */
 
 .container ul li .title{
     width: 100%;
