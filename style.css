@@ -323,7 +323,7 @@ nav h4{
 @media screen and (max-width: 1400px){
     .container ul li{
         width:40%; 
-        margin-left:40px;
+        margin-left:80px;
     }
 
 }
@@ -336,6 +336,10 @@ nav h4{
     .container ul li{
         width:50%; 
         margin-left:25%;
+    }
+    .contactBox{
+        width:50px;;
+        margin-left: 25%;
     }
 }
 
@@ -414,6 +418,11 @@ nav h4{
 
 #contact{
     padding-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    min-height: 260px; 
+    color:black; 
+    text-align: center;
 }
 
 .contactBox{
@@ -423,4 +432,17 @@ nav h4{
     margin-bottom: 50px;
     border-radius: 10px;
     background-color: #015c8d;
+}
+
+@media screen and (max-width:1260px){
+    .contactBox{
+        width:50%;
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width:900px){
+    .contactBox{
+        width:75%;
+        margin-left: 12.5%;
+    }
 }
