@@ -35,7 +35,13 @@ html {
 
 .column2 {
   float: left;
-  width: 100%;
+  width: 50%;
+  padding-top: 50px;
+  height: 100px;
+}
+
+.column3{
+    float: left;
 }
 
 /* Clear floats after the columns */
@@ -363,14 +369,6 @@ nav h4{
     }
 }
 
-
-/* CONTACT SECTION STYLING */
-
-#contact{
-    padding-top: 60px;
-}
-
-
 /* Project Popups */
 /* The Modal (background) */
 .modal {
@@ -409,4 +407,20 @@ nav h4{
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+
+/* CONTACT SECTION STYLING */
+
+#contact{
+    padding-top: 60px;
+}
+
+.contactBox{
+    width: 25%;
+    height: 200px;
+    margin-left: 16.5%;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    background-color: #015c8d;
 }

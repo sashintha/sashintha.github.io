@@ -20,7 +20,7 @@ const navSlide = ()=>{
     });
 }
 
-const bruh = ()=>{
+const popUp = ()=>{
     // Get the modal
     var modal = document.getElementById("myModal");
 
@@ -50,4 +50,4 @@ const bruh = ()=>{
 
 
 navSlide();
-bruh();
+popUp();
