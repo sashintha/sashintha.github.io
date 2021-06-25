@@ -49,9 +49,5 @@ const popUp = ()=>{
 }
 
 
-
-
-
-
 navSlide();
 popUp();
