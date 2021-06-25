@@ -426,12 +426,16 @@ nav h4{
 }
 
 .contactBox{
-    width: 25%;
-    height: 200px;
-    margin-left: 16.5%;
+    width: 12%;
+    height: 150px;
+    margin-left: 10.4%;
     margin-bottom: 50px;
     border-radius: 10px;
     background-color: #015c8d;
+}
+
+.contactBox:hover{
+    opacity: 0.8;
 }
 
 @media screen and (max-width:1260px){
