@@ -50,4 +50,4 @@ const popUp = ()=>{
 
 
 navSlide();
-popUp();
+// popUp();
