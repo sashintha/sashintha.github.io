@@ -18,8 +18,8 @@ body{
     border-color: #202020;
     color: black;
     border-radius: 10px;
-    width:100px;
-    height:100px;
+    width:80px;
+    height:80px;
 }
 
 .card{
@@ -42,7 +42,7 @@ body{
 
 .contact{
     background-color:#202020;
-    height:400px;
+    padding: 80px;
 }
 
 .title{
