@@ -1,0 +1,84 @@
+html{
+    background-color: #202020;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #202020;
+}
+
+.navbar{
+    background-color: #202020 !important;
+    width: 100%;
+    overflow: hidden;
+}
+
+.btn{
+    background-color: white !important;
+    border-color: #202020;
+    color: black;
+    border-radius: 10px;
+    width:100px;
+    height:100px;
+}
+
+.card{
+    background-color: #909090 ;
+}
+
+.about{
+    background-color: #202020;
+    color:white;
+    text-align: center;
+    align-items: center;
+    height:950px;
+    /* padding-top: 150px; */
+}
+
+.projects{
+    background-color: #202020;
+    height:950px;
+}
+
+.contact{
+    background-color:#202020;
+    height:400px;
+}
+
+.title{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.title2{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* PROFILE PIC */
+.pfp{
+    height: 300px;
+    width: 250px;
+    border-radius: 50px;
+    /* border:10px !important;
+    border-color: white !important; */
+}
+
+.card-img-top{
+    height:323px;
+}
+
+.logos{
+    height:100px;
+    width: 100px;
+}
+
+.contactBtns{
+    text-decoration: none;
+    text-align: center;
+    padding: 50px;
+}
+
