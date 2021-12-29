@@ -23,15 +23,17 @@ body{
 }
 
 .card{
-    background-color: #909090 ;
+    background-color: #909090;
+    height:600px !important;
 }
 
 .about{
+    /* background-color: #202020; */
     background-color: #202020;
     color:white;
     text-align: center;
     align-items: center;
-    height:950px;
+    height:800px;
     /* padding-top: 150px; */
 }
 
@@ -80,5 +82,11 @@ body{
     text-decoration: none;
     text-align: center;
     padding: 50px;
+}
+
+.learnBtn{
+    text-align: center;
+    width: 150px;
+    height: 50px;
 }
 
