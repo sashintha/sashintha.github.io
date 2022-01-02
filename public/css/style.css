@@ -84,8 +84,10 @@ body{
     padding: 50px;
 }
 
+.cardDesc{
+    height:150px;
+}
 .learnBtn{
-    text-align: center;
     width: 150px;
     height: 50px;
 }
