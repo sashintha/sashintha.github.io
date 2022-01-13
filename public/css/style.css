@@ -1,62 +1,76 @@
 html{
-    background-color: #202020;
+    background-color: #0f0f0f;
     scroll-behavior: smooth;
 }
 
 body{
-    background-color: #202020;
+    background-color: #0f0f0f;
 }
 
 .navbar{
-    background-color: #202020 !important;
+    background-color: #0f0f0f !important;
     width: 100%;
     overflow: hidden;
 }
 
+
+.home{
+    background-color: #0f0f0f;
+    color:white;
+    text-align: left;
+    align-items: center;
+    height:800px;
+}
+
 .btn{
-    background-color: white !important;
-    border-color: #202020;
-    color: black;
+    border-color: #0f0f0f;
+    color: white;
     border-radius: 10px;
     width:80px;
     height:80px;
 }
 
 .card{
-    background-color: #909090;
+    background-color: #232423;
     height:600px !important;
+}
+
+.cardDesc{
+    height:150px;
+    color: white;
 }
 
 .about{
     /* background-color: #202020; */
-    background-color: #202020;
+    background-color: #0f0f0f;
     color:white;
-    text-align: center;
+    text-align: left;
     align-items: center;
     height:800px;
     /* padding-top: 150px; */
 }
 
 .projects{
-    background-color: #202020;
+    background-color: #0f0f0f;
     height:950px;
 }
 
 .contact{
-    background-color:#202020;
+    background-color:#0f0f0f;
     padding: 80px;
+    
 }
 
 .title{
-    font-size: 50px;
+    font-size: 40px;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 .title2{
-    font-size: 50px;
+    font-size: 40px;
     color: white;
-    text-align: center;
+    text-align: left;
     padding-top: 100px;
 }
 
@@ -78,17 +92,39 @@ body{
     width: 100px;
 }
 
-.contactBtns{
+.linkBtns{
     text-decoration: none;
-    text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
-.cardDesc{
-    height:150px;
+.contactBtns{
+    border-width: 2.5px;
+    border-color: white;
+    background-color: #0f0f0f;
+    width: 150px;
+    height: 55px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
 }
-.learnBtn{
+
+.contactBtns:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+}
+
+.learnBtn{  
+    background-color: #232423;
+    border-color: white;
+    border-width: 2px;
     width: 150px;
     height: 50px;
+}
+
+.learnBtn:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
 }
 

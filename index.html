@@ -12,10 +12,10 @@
 </head>
 <body>
 
-    <div class="container" id="home">
+    <div class="container">
 
       <nav class="navbar navbar-expand-lg navbar-dark bg-light navbar-fixed-top sticky-top">
-        <a class="navbar-brand" href="#">Sashintha Tennakoon</a>
+        <a class="navbar-brand" href="#">ST</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="#home">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#projects">Projects</a>
@@ -35,37 +35,46 @@
         </div>
       </nav>
 
+      <div class="row home" id="home">
+        <div class="col">
+          <h1>
+            Hey, I'm Sashintha Tennakoon
+          </h1>
+          <h5>
+            A Software Engieering at Western University
+          </h5>
+          
+        </div>
+      </div>
+
       <div class="row about" id="about">
 
         <div class="col-6">
-          <div class="text-center">
-            <img src="images/pic.png" class="pfp">
-          </div>
-        </div>
-
-        <div class="col-6">
           <div class="title">
-            ABOUT ME
+            About Me
           </div>
           <div>
               My name is Sashintha Tennakoon and I am a Software Engieering student at the <b>University of Western Ontario</b>. I have a
               great interest in both <b>front-end and back-end</b> developement as well as an interest in further learning about <b>UX Design</b>.
           </div>
-          
         </div>
-
+        <div class="col-6">
+          <div class="text-center">
+            <img src="images/pic.png" class="pfp">
+          </div>
+        </div>
       </div>
 
       <div class="row projects" id="projects">
         <div class="col-12 title2">
-          P R O J E C T S
+          Projects
         </div>
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
 
           <div class="col">
             <div class="card">
-              <img src="images/train.png" class="card-img-top" alt="...">
+              <img src="images/train.png" class="card-img-top">
               <div class="row card-body">
 
                 <div class="row">
@@ -78,7 +87,7 @@
                 
                 <div class="row">
                   <div style="text-align: center;">
-                  <button type="button" class="btn btn-light learnBtn" onclick="location.href = 'https://github.com/sashintha/TrainManagementSystem';">Learn More</button>
+                  <button type="button" class="btn learnBtn" onclick="location.href = 'https://github.com/sashintha/TrainManagementSystem';">Learn More</button>
                   </div>
                 </div>
 
@@ -88,7 +97,7 @@
 
           <div class="col">
             <div class="card">
-              <img src="images/aDonoLogo.png" class="card-img-top" alt="...">
+              <img src="images/aDonoLogo.png" class="card-img-top">
               <div class="row card-body">
 
                 <div class="row">
@@ -100,7 +109,7 @@
                 
                 <div class="row">
                   <div style="text-align: center;">
-                    <button type="button" class="btn btn-light learnBtn" onclick="location.href = 'https://github.com/jmutton2/aDono';">Learn More</button>
+                    <button type="button" class="btn learnBtn" onclick="location.href = 'https://github.com/jmutton2/aDono';">Learn More</button>
                   </div>
                 </div>
 
@@ -110,7 +119,7 @@
 
           <div class="col">
             <div class="card">
-              <img src="images/NASA_logo.png" class="card-img-top" style="background-color: black;"alt="...">
+              <img src="images/NASA_logo.png" class="card-img-top" style="background-color: black;">
               <div class="row card-body">
 
                 <div class="row">
@@ -122,9 +131,9 @@
 
                 <div class="row">
                   <div style="text-align: center;">
-                    <button type="button" class="btn btn-light learnBtn"
+                    <button type="button" class="btn learnBtn"
                     onclick="location.href = 'https://sashintha.github.io/nasa-apod-viewer/';">Demo</button>
-                    <button type="button" class="btn btn-light learnBtn"
+                    <button type="button" class="btn learnBtn"
                     onclick="location.href = 'https://github.com/sashintha/nasa-apod-viewer';">Learn More</button>
                   </div>
                 </div>
@@ -137,29 +146,31 @@
       </div>
 
       <div id="contact">
-        <div class="col-12 title2">
-          C O N T A C T
-        </div>
+
         <div class="col-12 contact">
           <div style="text-align: center;">
-            <a href="https://github.com/sashintha" class="contactBtns">
-              <button class="btn">
-                <i class="fa fa-github fa-2x"></i>
+            <a href="https://github.com/sashintha" class="linkBtns">
+              <button class="btn contactBtns">
+                Github
+                <i class="fa fa-github fa"></i>
               </button>
             </a>
-            <a href="https://www.linkedin.com/in/sashinthatennakoon/" class="contactBtns">
-              <button class="btn">
-                <i class="fa fa-linkedin fa-2x"></i>
+            <a href="https://www.linkedin.com/in/sashinthatennakoon/" class="linkBtns">
+              <button class="btn contactBtns">
+                LinkedIn
+                <i class="fa fa-linkedin fa"></i>
               </button>
             </a>
-            <a href="mailto:sashintha2001@gmail.com" class="contactBtns">
-              <button class="btn">
-                <i class="fa fa-envelope fa-2x"></i>
+            <a href="mailto:sashintha2001@gmail.com" class="linkBtns">
+              <button class="btn contactBtns">
+                Email
+                <i class="fa fa-envelope fa"></i>
               </button>
             </a>
-            <a class="contactBtns" onclick="window.open('files/resume.pdf'); return true;">
-              <button class="btn">
-                <i class="fa fa-file fa-2x"></i>
+            <a onclick="window.open('files/resume.pdf'); return true;" class="linkBtns">
+              <button class="btn contactBtns">
+                Resume
+                <i class="fa fa-file fa"></i>
               </button>
             </a>
           </div>
