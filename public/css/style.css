@@ -31,7 +31,8 @@ body {
 
 .card {
   background-color: #232423;
-  height: 600px !important;
+  height: 650px;
+  margin-bottom: 50px;
 }
 
 .cardDesc {
@@ -126,12 +127,12 @@ body {
   color: black;
 }
 
-.projectBadges {
+.badgeDiv{
+  
 }
 
 .badge {
   border-color: black;
-  border-width: 10px !important;
   color: black;
 }
 
@@ -161,4 +162,29 @@ body {
 
 .bg-api {
   background-color: rgb(70, 70, 226);
+}
+
+
+/* Responsive  */
+
+@media screen and (max-width: 1200px) {
+  .cardDesc{
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .picBox{
+    width:100%
+  }
+  .bioBox{
+    margin:auto;
+    
+  }
+}
+
+@media screen and (max-width: 400px){
+  .card{
+    height:700px;
+  }
 }
